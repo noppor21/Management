@@ -10,7 +10,7 @@ and open the template in the editor.
         
                 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>Head of Project</title>
+		<title> ระบบจัดการโครงการแผนงบประมาณประจำปี</title>
 
 		<meta name="description" content="Dynamic tables and grids using jqGrid plugin" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
