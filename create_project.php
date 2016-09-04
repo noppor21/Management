@@ -291,12 +291,12 @@ and open the template in the editor.
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 								<!-- *****************************-->
-								<form class="form-horizontal" role="form">
+                                                                <form class="form-horizontal" method="post" role="form" name="frm">
 									<div class="form-group">
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> ชื่อโครงการ </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" name="Project_name" />
 										</div>
 									</div>
 
@@ -306,7 +306,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1-1"> หลักการและเหตุผล </label>
 
 										<div class="col-sm-9">
-											<textarea class="form-control" id="form-field-5" Text"></textarea>
+                                                                                    <textarea class="form-control"  type ="text" id="form-field-5"name="Project_rationale"></textarea>
 										</div>
 									</div>
 
@@ -315,7 +315,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> วัตถุประสงค์ </label>
 
 										<div class="col-sm-5">
-											<input type="text" id="form-field-1"  class="col-xs-5 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1"  class="col-xs-5 col-sm-5" name="Project_objective"/>
 										</div>
 									</div>
 
@@ -325,7 +325,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> เป้าหมาย </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" name="Project_goal" />
 										</div>
 									</div>
 
@@ -335,7 +335,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> ขั้นตอนการทำงาน </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" name="Project_work_procedures"/>
 										</div>
 									</div>
 
@@ -345,7 +345,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> เวลา </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" />
+                                                                                    <input type="datetime-local" id="form-field-1"  class="col-xs-10 col-sm-5" name="Project_time" />
 										</div>
 									</div>
 
@@ -355,7 +355,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> สถานที่ </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" name="Project_place" />
 										</div>
 									</div>
 
@@ -365,7 +365,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> ผู้เข้าร่วมโครงการ </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1"  class="col-xs-10 col-sm-5" name="Project_attendees"/>
 										</div>
 									</div>
 
@@ -375,7 +375,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> ผลที่คาดว่าจะได้รับ </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1" class="col-xs-10 col-sm-5" name="Project_expected_result"/>
 										</div>
 									</div>
 
@@ -385,7 +385,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> การประเมินผล </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1" class="col-xs-10 col-sm-5" name="Project_evaluation"/>
 										</div>
 									</div>
 
@@ -395,7 +395,7 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> งบประมาณ </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1" class="col-xs-10 col-sm-5" name="Project_budgets"/>
 										</div>
 									</div>
 
@@ -403,12 +403,12 @@ and open the template in the editor.
 										<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> ผู้รับผิดชอบโครงการ </label>
 
 										<div class="col-sm-9">
-											<input type="text" id="form-field-1" class="col-xs-10 col-sm-5" />
+                                                                                    <input type="text" id="form-field-1" class="col-xs-10 col-sm-5" name="Project_Responsible_for_project"/>
 										</div>
 									</div>
 									<div class="clearfix form-actions">
 										<div class="col-md-offset-3 col-md-9">
-											<button class="btn btn-info" type="button">
+                                                                                    <button class="btn btn-info" type="submit" name="save">
 												<i class="ace-icon fa fa-check bigger-110"></i>
 												Save
 											</button>
@@ -472,6 +472,54 @@ and open the template in the editor.
 		<script src="assets/js/ace-elements.min.js"></script>
 		<script src="assets/js/ace.min.js"></script>
 
-		<!-- inline scripts related to this page -->
+		<!--inline scripts related to this page -->
     </body>
+    
+    <?php
+include('config.php');
+
+//print_r($_POST);
+if(isset($_POST['save']))
+{
+$Project_name = mysql_real_escape_string($_POST['Project_name']); // รับค่าคร้าฟฟ
+
+$Project_rationale  =mysql_real_escape_string($_POST['Project_rationale']);
+
+$Project_objective   =mysql_real_escape_string($_POST['Project_objective']);
+
+$Project_goal    =mysql_real_escape_string($_POST['Project_goal']);
+
+$Project_work_procedures  =mysql_real_escape_string($_POST['Project_work_procedures']);
+
+$Project_time=mysql_real_escape_string($_POST['Project_time']);
+
+$Project_place=mysql_real_escape_string($_POST['Project_place']);
+
+$Project_attendees=mysql_real_escape_string($_POST['Project_attendees']);
+
+$Project_expected_result=mysql_real_escape_string($_POST['Project_expected_result']);
+
+$Project_evaluation=mysql_real_escape_string($_POST['Project_expected_result']);
+
+$Project_budgets=mysql_real_escape_string($_POST['Project_budgets']);
+
+$Project_Responsible_for_project=mysql_real_escape_string($_POST['Project_Responsible_for_project']);
+//
+//
+
+
+
+$query1=mysql_query("insert into Project values('','$Project_name','$Project_rationale','$Project_objective', '$Project_goal', '$Project_work_procedures', '$Project_time', '$Project_place', '$Project_attendees','$Project_expected_result','$Project_evaluation', '$Project_budgets', '$Project_Responsible_for_project')");
+//echo "insert into addd values('','$name','$age')";
+if($query1)
+{
+//header("location:list.php");
+           
+}
+}
+?>
+
+
+
+
 </html>
